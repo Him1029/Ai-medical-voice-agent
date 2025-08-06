@@ -133,7 +133,7 @@ function ViewReportDialog({ record }: props) {
                 <section>
                   <h3 className="text-blue-600 font-semibold">Symptoms</h3>
                   <ul className="list-disc list-inside">
-                    {report?.symptoms?.length > 0 ? (
+                    {report.symptoms.length > 0 ? (
                       report.symptoms.map((symptom, i) => (
                         <li key={i}>{symptom}</li>
                       ))
@@ -161,7 +161,7 @@ function ViewReportDialog({ record }: props) {
                     Medications Mentioned
                   </h3>
                   <ul className="list-disc list-inside">
-                    {report?.medicationsMentioned?.length > 0 ? (
+                    {report.medicationsMentioned.length > 0 ? (
                       report.medicationsMentioned.map((med, i) => (
                         <li key={i}>{med}</li>
                       ))
