@@ -22,10 +22,15 @@ This project simulates a **virtual medical assistant** that works like a voice-b
 ## 🔧 Tech Stack & Tools
 
 | 🧑‍💻 Frontend   | React, Next.js , TailwindCSS 
+
 | 🧠 AI Engine  | AssemblyAI (Speech-to-Text + AI),  OpenAI 
-| 🔐 Auth       | Clerk.dev                          
+
+| 🔐 Auth       | Clerk.dev         
+
 | 🗃️ Database   | NeonDB (Serverless PostgreSQL) (Drizzle orm)
-| 🔌 Hosting    | Vercel (Serverless deployment)      
+
+| 🔌 Hosting    | Vercel (Serverless deployment)   
+
 | 🧰 Language   | TypeScript                    
 
 ---
