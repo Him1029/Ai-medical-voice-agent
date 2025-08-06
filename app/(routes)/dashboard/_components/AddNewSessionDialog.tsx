@@ -93,7 +93,7 @@ function AddNewSessionDialog() {
       }}
     >
       <DialogTrigger asChild>
-        <Button className="mt-3" disabled={!paidUser &&historyList?.length>=5}>+ Start a Consultation </Button>
+        <Button className="mt-3" disabled={!paidUser &&historyList?.length>=50}>+ Start a Consultation </Button>
       </DialogTrigger>
 
       <DialogContent>
