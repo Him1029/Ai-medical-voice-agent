@@ -1,3 +1,65 @@
+# 🩺 AI Medical Voice Agent — Real-Time Doctor Powered by AI
+
+Welcome to the **AI Medical Voice Agent** — a real-time voice-enabled virtual doctor that listens to your symptoms, understands your health concerns using AI, and provides instant feedback.
+
+This full-stack SaaS application is built with **Next.js, React, TypeScript, AssemblyAI, Clerk Authentication, and NeonDB (PostgreSQL)** — and is designed for modern AI-based healthcare platforms.
+
+🌐 **Live App:** [ai-medical-agent-two.vercel.app](https://ai-medical-agent-two.vercel.app)
+
+---
+
+## 🧠 What This Project Does
+
+This project simulates a **virtual medical assistant** that works like a voice-based AI doctor. Users can:
+
+- Speak directly to the app.
+- Get real-time transcription of their speech.
+- Receive intelligent, context-aware AI responses.
+- Save conversation history securely.
+- See Medical Reports
+---
+
+## 🔧 Tech Stack & Tools
+
+| 🧑‍💻 Frontend   | React, Next.js , TailwindCSS 
+| 🧠 AI Engine  | AssemblyAI (Speech-to-Text + AI),  OpenAI 
+| 🔐 Auth       | Clerk.dev                          
+| 🗃️ Database   | NeonDB (Serverless PostgreSQL) (Drizzle orm)
+| 🔌 Hosting    | Vercel (Serverless deployment)      
+| 🧰 Language   | TypeScript                    
+
+---
+
+## 🚀 Features at a Glance
+
+- 🎙️ **Real-time Voice Input** with AssemblyAI
+- 🧾 **Live Transcription** of user speech
+- 🧠 **Symptom Understanding** using AI logic
+- 📥 **Secure Login** via Clerk
+- 📚 **View Conversation History and Medical Reports**
+- 🧪 **Medical Prompt Engineering** to simulate doctor-like responses
+- 📱 **Mobile-Responsive UI** with TailwindCSS
+- ⚡ **Fully Serverless** on Vercel
+
+---
+
+## 📂 Project Structure
+
+```bash
+ai-medical-agent/
+│
+├── app/                # Next.js App Router (frontend + API)
+│   ├── api/voice       # API route for transcription + AI logic
+│   ├── dashboard/      # User dashboard (view saved chats)
+│   └── components/     # Reusable UI components
+│
+├── lib/                # AssemblyAI & Clerk utility functions
+├── db/                 # Prisma schema & NeonDB config
+├── public/             # Static assets
+├── .env.local          # Environment variables
+└── README.md           # Project overview
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -6,12 +68,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
